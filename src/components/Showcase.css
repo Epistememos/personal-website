@@ -6,9 +6,9 @@ video {
     z-index: -1;
 }
 
-.decription-container {
-    background: url('images/img-home.jpg') center center/cover
-    no-repeat;
+.showcase-container {
+    /*background: url('images/img-home.jpg') center center/cover no-repeat;
+    no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;
