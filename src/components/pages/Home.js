@@ -1,17 +1,13 @@
-import React from 'react';
-import '../../App.css'
-import Showcase from '../Showcase'
-import Cards from '../Cards';
-import Footer from '../Footer';
+import React from 'react'
+import SideNav from '/SideNav';
+
 
 function Home() {
-    return(
-        <>
-        <Showcase />
-        <Cards />
-        <Footer />
-        </>
-    )
+  return (
+    <div>
+      <SideNav />
+    </div>
+  )
 }
 
-export default Home;
+export default Home
