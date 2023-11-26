@@ -6,6 +6,7 @@ function Simplified() {
     <div className="simplified_container">
       <a href="/">Return Home</a>
       <h1>Youdas Yessad</h1>
+      <h3><a href="/media/Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></h3>
       <div className="simplified_section">
         <h2>About</h2>
         <h3>I'm Youdas, and I'm on a journey fueled by three core passions: Learning, Building and Enjoying</h3>
@@ -37,7 +38,7 @@ function Simplified() {
 
       </div>
       <div className="contact_section">
-            <h1>Contact Information</h1>
+            <h2>Contact Information</h2>
             <h3><a href='youdas.yessad@gmail.com'>Email</a></h3>
             <h3><a href="https://www.linkedin.com/in/youdas-yessad/">LinkedIn</a></h3>
         </div>
