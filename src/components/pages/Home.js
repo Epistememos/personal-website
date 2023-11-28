@@ -2,6 +2,7 @@ import React from 'react'
 import SideNav from '../SideNav';
 import "./Home.css";
 import Header from "../Header";
+import Showcase from '../Showcase';
 
 
 function Home() {
@@ -10,13 +11,9 @@ function Home() {
     <div className='home'>
       <SideNav name="Youdas Yessad"/>
       <div className="home_container">
-        <div className="header">
-          
-        </div>
-        <div className="header">
-          <h1>Youdas Yessad</h1>
-        </div>
+
         <div className="about_container">
+        <h1 id="about">Youdas Yessad</h1>
           <div class="row">
             <div className="column">
               <img src='/assets/img-pilot2.jpg' alt='Headshot'/>
@@ -37,18 +34,20 @@ function Home() {
           </div>
         </div>
         <div className="projects_container">
-        <h1>Projects</h1>
+        <h1 id="projects">Projects</h1>
+        <Showcase />
         </div>
-        <div className="involvement_container">
-
+        <div className="involvements_container">
+        <h1 id="involvement">Involvements</h1>
         </div>
         <div className="blog_container">
-
+        <h1 id="blog">Blog</h1>
         </div>
-        <div className="footer">
-          <div className="contact_container"></div>
+        <div className="footer" >
+          <div className="contact_container" ></div>
+          <h1 id="contact">Contact</h1>
+          </div>
         </div>
-      </div>
     </div>
   )
 }

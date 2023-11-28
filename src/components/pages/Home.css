@@ -13,6 +13,7 @@ html {
     padding: 0;
     border-radius: 0;
 }
+
 .home_container {
 
     height: 100%;
@@ -44,7 +45,6 @@ html {
     display: table;
 }
 .about_container {
-    background-image: url('/public/assets/img-fly.jpg');
     position: relative;
     padding-top: 5%;
     top: 0;
@@ -77,5 +77,31 @@ html {
 
 .projects_container {
     position: relative;
+    padding-left: 3%;
+    display:block;
+    text-align: justify;
+}
+
+.involvements_container {
+    position: relative;
+    padding-left: 3%;
+    display:block;
+    text-align: justify;
+}
+
+.blog_container {
+    position: relative;
+    padding-left: 3%;
+    display:block;
+    text-align: justify;
+}
+.footer {
+    position: relative;
+    
     padding:3%;
+    text-align: justify;
+}
+
+.contact_container{
+
 }
