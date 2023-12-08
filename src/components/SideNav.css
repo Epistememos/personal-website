@@ -19,11 +19,11 @@
 }
 
 .sidenav-container > a {
-    color:#F2F2F7FF;
+    color:rgb(244, 242, 236);
     font-size: 1em;
 }
 .sidenav-container > h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(244, 242, 236);
     font-size: 2cap;
 }
 
