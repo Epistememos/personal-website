@@ -1,6 +1,6 @@
 :root {
     --closed: 50px;
-    --open: 250px;
+    --open: 175px;
     --white: rgb(244, 242, 236);
   }
 
@@ -13,7 +13,8 @@ html {
 .home {
     height: 100%;
     margin-left: var(--open);
-    padding-left: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
     position: absolute;
     z-index: 1;
     transition: 0.7s ease;
@@ -23,5 +24,15 @@ html {
     overflow: hidden;
 }
 .home.closed {
+    height: 100%;
+    padding-top: 20px;
     margin-left: var(--closed);
+    padding-left: 20px;
+    position: absolute;
+    z-index: 1;
+    transition: 0.7s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }

@@ -1,14 +1,18 @@
 import React, { useState }from 'react';
 import SideNav from '../SideNav';
 import Header from '../Header';
-import "./Home.css"
+import "./Home.css";
+
 
 function Home() {
-  const [isOpen, setOpen] = useState(true)
+  const [isNavOpen, setNavOpen] = useState(true);
+
+  const handleNavToggle = (isOpen) => {setNavOpen(isOpen); };
+
   return (
     <>
-      <SideNav name="Youdas Yessad"/>
-      <div className={`home ${isOpen ? 'open' : 'closed'}`}>
+      <SideNav name="Youdas Yessad" handleNavToggle={handleNavToggle} />
+      <div className={`home ${isNavOpen ? '' : 'closed'}`}>
         <Header />
       </div>
       
