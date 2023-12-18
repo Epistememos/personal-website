@@ -1,21 +1,50 @@
 import React from 'react';
 import "./Showcase.css";
-import { Link } from 'react-router-dom';
+import ShowcaseItem from './ShowcaseItem';
 
 function Showcase(props) {
   return (
-    <>
-      <li className='showcase__item'>
-        <Link className='showcase__item__link' to={props.path}>
-          <figure className='showcase__item__pic-wrap' data-category={props.label}>
-            <img className='showcase__item__img' alt='Project' src={props.src}/>
-          </figure>
-          <div className='showcase__item__info'>
-            <h5 className='showcase__item__text'>{props.text}</h5>
-          </div>
-        </Link>
-      </li>
-    </>
+    <div className='showcase'>
+    <h1>{props.name}</h1>
+    <div className='showcase__container'>
+      <div className='showcase__wrapper'>
+        <ul className='showcase__items'>
+          <ShowcaseItem
+            src='/assets/img-pilot2.jpg'
+            text='Explore the hidden waterfall deep inside the Amazon Jungle'
+            label='Adventure'
+            path='/services'
+          />
+          <ShowcaseItem
+            src='/assets/img-profile.jpg'
+            text='Travel through the Islands of Bali in a Private Cruise'
+            label='Luxury'
+            path='/services'
+          />
+        </ul>
+        <ul className='showcase__items'>
+          <ShowcaseItem
+            src='/assets/img-profile.jpg'
+            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+            label='Mystery'
+            path='/services'
+          />
+          <ShowcaseItem
+            src='/assets/img-profile.jpg'
+            text='Experience Football on Top of the Himilayan Mountains'
+            label='Adventure'
+            path='/products'
+          />
+          <ShowcaseItem
+            src='/assets/img-profile.jpg'
+            text='Ride through the Sahara Desert on a guided camel tour'
+            label='Adrenaline'
+            path='/sign-up'
+          />
+        </ul>
+      </div>
+    </div>
+  </div>
   )
 }
 
