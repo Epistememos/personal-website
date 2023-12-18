@@ -1,0 +1,30 @@
+.popup {
+    position: fixed;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 90%;
+    width: 70%;
+    border-radius: 2em;
+    margin-top: 5%;
+}
+.popup-inner >p {
+    color: var(--gray);
+}
+
+
+.popup-inner {
+    position: relative;
+    padding: 10px;
+    width: 80%;
+    color: var(--gray);
+}
+
+.popup-inner > button {
+    background-color: var(--gray);
+    outline-width: 0cap;
+    color: var(--white);
+    padding: 4px;
+    border-radius: 10%;
+}

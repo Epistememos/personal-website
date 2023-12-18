@@ -1,7 +1,11 @@
 :root {
-    --closed: 50px;
-    --open: 175px;
+    --closed: 4%;
+    --open: 15%;
+    --wide: 96%;
+    --narrow: 85%;
     --white: rgb(244, 242, 236);
+    --black: rgb(22,22,24);
+    --gray: rgb(33,33,36);
   }
 
 html {
@@ -12,27 +16,23 @@ html {
 
 .home {
     height: 100%;
+    padding-top: 20px;
+    width: var(--narrow);
+    position: absolute;
     margin-left: var(--open);
     padding-left: 20px;
-    padding-top: 20px;
-    position: absolute;
     z-index: 1;
     transition: 0.7s ease;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     overflow: hidden;
 }
 .home.closed {
     height: 100%;
     padding-top: 20px;
+    width: var(--wide);
+    position: absolute;
     margin-left: var(--closed);
     padding-left: 20px;
-    position: absolute;
     z-index: 1;
     transition: 0.7s ease;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     overflow: hidden;
 }

@@ -7,4 +7,23 @@
 
 .header > h1 {
     text-align: center;
+    font-size: 3em;
+    text-shadow:
+        0 0 7px var(--white);
+}
+
+.header > img {
+    width: 25%;
+    margin: 0;
+}
+.quote {
+    text-align: center;
+}
+
+.quote:hover {
+    cursor: pointer;
+    text-align: center;
+    text-shadow:
+      0 0 7px var(--white),
+      0 0 10px var(--white);
 }
