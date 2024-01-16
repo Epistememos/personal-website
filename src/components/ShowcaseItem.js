@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 function ShowcaseItem(props) {
   return (
     <div>
-       <div className='showcase'>
+       <div className='showcase__row'>
       <h2>{props.name}</h2>
       <li className='showcase__item'>
         <Link className='showcase__item__link' to={props.path}>
-          <figure className='showcase__item__pic-wrap' data-category={props.label}>
-            <img className='showcase__item__img' alt='Project' src={props.src}/>
-          </figure>
+          
+          <img className='showcase__item__img' alt='Project' src={props.src}/>
           <div className='showcase__item__info'>
             <h5 className='showcase__item__text'>{props.text}</h5>
           </div>

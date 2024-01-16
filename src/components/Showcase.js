@@ -4,9 +4,8 @@ import ShowcaseItem from './ShowcaseItem';
 
 function Showcase(props) {
   return (
-    <div className='showcase'>
-    <h1>{props.name}</h1>
     <div className='showcase__container'>
+      <h1>{props.name}</h1>
       <div className='showcase__wrapper'>
         <ul className='showcase__items'>
           <ShowcaseItem
@@ -44,7 +43,6 @@ function Showcase(props) {
         </ul>
       </div>
     </div>
-  </div>
   )
 }
 
