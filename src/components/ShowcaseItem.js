@@ -9,7 +9,7 @@ function ShowcaseItem(props) {
       <h2>{props.name}</h2>
       <li className='showcase__item'>
         <Link className='showcase__item__link' to={props.path}>
-          
+          <h1>{props.alt}</h1>
           <img className='showcase__item__img' alt='Project' src={props.src}/>
           <div className='showcase__item__info'>
             <h5 className='showcase__item__text'>{props.text}</h5>

@@ -39,20 +39,24 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  padding: 0px;
-  box-shadow: 0 6px 20px var(--white);
-  -webkit-filter: drop-shadow(0 6px 20px var(--white));
-  filter: drop-shadow(0 6px 20px var(--white));
+  padding: 1em;
+ 
   border-radius: 10px;
   overflow: hidden;
 
+}
+
+.showcase__item__link:hover{ 
+  box-shadow: 0 6px 20px var(--white);
+  -webkit-filter: drop-shadow(0 6px 20px var(--white));
+  filter: drop-shadow(0 6px 20px var(--white));
 }
 
 
 .showcase__item__img {
   display: block;
   position: relative;
-  width: 90%;
+  width: 21em;
   margin-left: auto;
   margin-right: auto;
 }

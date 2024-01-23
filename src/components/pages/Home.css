@@ -35,5 +35,5 @@ html {
     padding-left: 20px;
     z-index: 1;
     transition: 0.7s ease;
-    overflow: hidden;
+    overflow-x: hidden;
 }
