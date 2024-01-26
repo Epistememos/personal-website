@@ -56,7 +56,7 @@ h1 {
 .showcase__item__img {
   display: block;
   position: relative;
-  width: 21em;
+  width: 17em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -67,7 +67,7 @@ h1 {
 
 .showcase__item__text {
   color: #252e48;
-  font-size: 18px;
+  font-size: 1em;
   line-height: 22px;
   margin-top: 1em;
   margin-bottom: 0;

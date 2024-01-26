@@ -2,17 +2,15 @@ import React from 'react';
 import "./Showcase.css";
 import { Link } from 'react-router-dom';
 
-function ShowcaseItem(props) {
+const ShowcaseItem = ({data}) => {
   return (
     <div>
        <div className='showcase__row'>
-      <h2>{props.name}</h2>
       <li className='showcase__item'>
-        <Link className='showcase__item__link' to={props.path}>
-          <h1>{props.alt}</h1>
-          <img className='showcase__item__img' alt='Project' src={props.src}/>
+        <Link className='showcase__item__link' to={data.path}>
+          <img className='showcase__item__img' alt='Project' src={data.src}/>
           <div className='showcase__item__info'>
-            <h5 className='showcase__item__text'>{props.text}</h5>
+            <h5 className='showcase__item__text'>{data.title}</h5>
           </div>
         </Link>
       </li>
