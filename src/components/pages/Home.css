@@ -10,7 +10,8 @@
 
 html {
     background-color: rgb(33,33,36);
-    overflow: hidden;
+    overflow: auto;
+    scrollbar-gutter: stable;
 }
 
 
@@ -36,4 +37,5 @@ html {
     z-index: 1;
     transition: 0.7s ease;
     overflow-x: hidden;
+    overflow-y: scroll;
 }

@@ -7,7 +7,7 @@ const ShowcaseItem = ({data}) => {
     <div>
        <div className='showcase__row'>
       <li className='showcase__item'>
-        <Link className='showcase__item__link' to={data.path}>
+        <Link className='showcase__item__link' to={data.path} target='_blank'>
           <img className='showcase__item__img' alt='Project' src={data.src}/>
           <div className='showcase__item__info'>
             <h5 className='showcase__item__text'>{data.title}</h5>

@@ -15,7 +15,7 @@ h1 {
   flex-flow: column;
   align-items: center;
   width: 96%;
-  margin: 0 auto;
+  margin: 1em;
   background-color: var(--black);
   border-radius: 2em;
 }
