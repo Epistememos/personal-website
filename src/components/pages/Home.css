@@ -11,17 +11,15 @@
 html {
     background-color: rgb(33,33,36);
     overflow: auto;
-    scrollbar-gutter: stable;
 }
 
 
 .home {
     height: 100%;
-    padding-top: 20px;
+
     width: var(--narrow);
     position: absolute;
     margin-left: var(--open);
-    padding-left: 20px;
     z-index: 1;
     transition: 0.7s ease;
     overflow-y:scroll;
@@ -29,7 +27,7 @@ html {
 }
 .home.closed {
     height: 100%;
-    padding-top: 20px;
+
     width: var(--wide);
     position: absolute;
     margin-left: var(--closed);

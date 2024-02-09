@@ -20,7 +20,6 @@ function Home() {
             <Showcase section={section.section} data={section} />
         ))}
       </div>
-      
     </>
   );
 }

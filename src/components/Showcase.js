@@ -4,7 +4,7 @@ import ShowcaseItem from './ShowcaseItem';
 
 const Showcase = ({data}) => {
   return (
-    <div className='showcase__container'>
+    <div className='showcase__container' id={data.id}>
       <h1>{data.section}</h1>
       <div className='showcase__wrapper'>
         <ul className='showcase__items'>
