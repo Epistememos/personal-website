@@ -1,7 +1,7 @@
 const backendData = [
     {
       section: 'Projects',
-      id: '#projects',
+      id: 'projects',
       categories: [
         {
           title: 'NeuralCar',
@@ -20,7 +20,7 @@ const backendData = [
     },
     {
       section: 'Involvements',
-      id: '#involvements',
+      id: 'involvements',
       categories: [
         {
           title: 'Director of Outreach - MPMA',
@@ -42,7 +42,7 @@ const backendData = [
     },
     {
       section: 'Blog',
-      id: '#blog',
+      id: 'blog',
       categories: [
         {
           title: 'Free Will (Coming Soon)',
