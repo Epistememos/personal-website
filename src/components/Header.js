@@ -7,7 +7,7 @@ function Header() {
   const [buttonPopup, setButtonPopup] = useState(false)
 
   return (
-    <div className='header' id='#about'>
+    <div className='header' id='about'>
       <h1>Youdas Yessad</h1>
       <img src='/assets/img-pilot2.jpg' alt='Piloting'/>
       <div onClick={() => setButtonPopup(true)} className='quote'>

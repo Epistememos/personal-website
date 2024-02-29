@@ -1,21 +1,15 @@
 .sidenav-container {
-  height: 100%;
-  width: var(--open);
-  margin-top: 0;
-  position: fixed;
-  z-index: 1;
-  background-color: rgb(22,22,24);
-  transition: 0.7s ease;
-  padding-top: 30px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  align-items: center;
-  align-items: right;
+    margin-top: 0;
+    z-index: 1;
+    background-color: rgb(22,22,24);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    align-items: center;
+    align-items: right;
 }
-.sidenav-container.closed {
-    width: var(--closed);
-}
+
 
 .sidenav-container > a {
     color: var(--white);
@@ -29,11 +23,10 @@
 
 .sidenav-container > h1 {
     color: var(--white);
-    font-size: 2cap;
+    font-size: 1em;
 }
 
 img {
-    margin-top: 50px;
     border-radius: 10px;
 } 
 
@@ -68,8 +61,7 @@ img {
 
 .menu-icon {
     position: absolute;
+    right: 0;
     padding: 0;
     margin: 0;
-    z-index: 2;
-    right: 0;
 }

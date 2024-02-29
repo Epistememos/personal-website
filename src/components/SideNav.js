@@ -16,7 +16,7 @@ const SideNav = (props) => {
   };
 
   return (
-    <div className={`sidenav-container ${isOpen ? '' : 'closed'}`}>
+    <div className="sidenav-container">
       <div className="menu-icon">
         <Hamburger rounded toggled={isOpen} toggle={() => toggleNav(!isOpen)} color="#F4F2EC" />
       </div>
@@ -36,4 +36,5 @@ const SideNav = (props) => {
     </div>
   );
 };
+
 export default SideNav;
