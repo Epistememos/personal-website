@@ -14,7 +14,7 @@ const Showcase = ({data}) => {
         ))}
         </ul>
       </div>
-      <Button name="See more" />
+      <Button name="See more" path={data.link}/>
     </div>
   )
 }

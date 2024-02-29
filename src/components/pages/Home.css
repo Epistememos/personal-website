@@ -1,6 +1,4 @@
 :root {
-    --closed: 4%;
-    --open: 15%;
     --wide: 96%;
     --narrow: 85%;
     --white: rgb(244, 242, 236);
@@ -10,30 +8,23 @@
 
 html {
     background-color: rgb(33,33,36);
-    overflow: auto;
 }
 
 
-.home {
-    height: 100%;
-
-    width: var(--narrow);
-    position: absolute;
-    margin-left: var(--open);
-    z-index: 1;
-    transition: 0.7s ease;
-    overflow-y:scroll;
-    overflow-x: hidden;
-}
-.home.closed {
-    height: 100%;
-
-    width: var(--wide);
-    position: absolute;
-    margin-left: var(--closed);
-    padding-left: 20px;
-    z-index: 1;
-    transition: 0.7s ease;
-    overflow-x: hidden;
+.main-home {
+    padding-top: 20px;
     overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home {
+    display: grid;
+    grid-template-columns: 1fr var(--narrow);
+    height: 100vh;
+    transition: 0.7s ease;
+}
+
+.home.closed {
+    grid-template-columns: 1fr var(--wide);
 }
