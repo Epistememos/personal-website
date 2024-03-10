@@ -39,6 +39,11 @@ const backendData = [
           title: 'VP External - MSFC', 
           src: '/assets/img-msfc.jpg',
           path: 'https://www.instagram.com/mcgillflyingclub/?hl=en'
+        },
+        {
+          title: 'Member - Boxing Club', 
+          src: '/assets/img-boxing.jpg',
+          path: 'https://www.instagram.com/mcgillflyingclub/?hl=en'
         }
       ]
     },
@@ -49,7 +54,7 @@ const backendData = [
       categories: [
         {
           title: 'Free Will (Coming Soon)',
-          src: '/assets/img-mpma.jpg',
+          src: '/assets/img-freewill.jpg',
           path: 'https://www.linkedin.com/company/mpma-mcgill/'
         },
         {
