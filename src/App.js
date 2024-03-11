@@ -6,6 +6,7 @@ import Simplified from './components/pages/Simplified';
 import Projects from './components/pages/Projects';
 import Involvements from './components/pages/Involvements';
 import Blog from './components/pages/Blog';
+import Article from './components/pages/Article';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Route path="/projects" element={<Projects />}/>
       <Route path="/involvements" element={<Involvements />}/>
       <Route path="/blog" element={<Blog />}/>
+      <Route path="/blog/:id" element={<Article />} />
     </Routes>
     </BrowserRouter>
   )

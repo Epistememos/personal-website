@@ -16,13 +16,16 @@ h1 {
   align-items: center;
   width: 96%;
   margin: 1em;
+  height: auto;
   padding-bottom: 1em;
   background-color: var(--black);
   border-radius: 2em;
 }
 
 .showcase__wrapper {
-  position: relative;
+  display: grid; 
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, 1vh);
 }
 
 .showcase__items {
@@ -41,7 +44,6 @@ h1 {
   flex-flow: column;
   width: 100%;
   padding: 1em;
- 
   border-radius: 10px;
   overflow: hidden;
 

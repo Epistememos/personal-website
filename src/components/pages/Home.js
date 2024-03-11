@@ -5,7 +5,6 @@ import Footer from "../Footer";
 import "./Home.css";
 import Showcase from "../Showcase";
 import backendData from "../../backendData";
-import FormfacadeEmbed from "@formfacade/embed-react";
 
 function Home() {
   const [isNavOpen, setNavOpen] = useState(true);

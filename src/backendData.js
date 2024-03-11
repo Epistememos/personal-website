@@ -31,19 +31,22 @@ const backendData = [
         },
         {
           title: 'Junior Consultant - ConnectUs',
+          time: '10/2023-Present',
           src: '/assets/img-connectus.jpg',
           path: 'https://www.instagram.com/mcgill.cu/?hl=en'
           
         },
         {
           title: 'VP External - MSFC', 
+          time: '10/2023-Present',
           src: '/assets/img-msfc.jpg',
           path: 'https://www.instagram.com/mcgillflyingclub/?hl=en'
         },
         {
           title: 'Member - Boxing Club', 
+          time: '10/2023-Present',
           src: '/assets/img-boxing.jpg',
-          path: 'https://www.instagram.com/mcgillflyingclub/?hl=en'
+          path: 'https://mcgillstudentboxingclub.ca/'
         }
       ]
     },
@@ -55,15 +58,16 @@ const backendData = [
         {
           title: 'Free Will (Coming Soon)',
           src: '/assets/img-freewill.jpg',
-          path: 'https://www.linkedin.com/company/mpma-mcgill/'
+          path: 'article/free-will',
+          article: '/public/articles/free-will.txt' 
         },
         {
           title: 'Misunderstood Nietzsche (Soon)',
-          src: '/assets/img-taskmaster.jpg'
+          src: ''
         },
         {
           title: 'Option Trading Simplified (Soon)', 
-          src: '/assets/img-projecto.jpg'
+          src: ''
         }
       ]
     }
