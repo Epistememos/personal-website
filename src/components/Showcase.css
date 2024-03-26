@@ -22,14 +22,11 @@ h1 {
   border-radius: 2em;
 }
 
-.showcase__wrapper {
-  display: grid; 
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, 1vh);
-}
+
 
 .showcase__items {
   margin-bottom: 24px;
+  display: grid;
 }
 
 .showcase__item {

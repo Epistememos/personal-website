@@ -30,6 +30,7 @@ const SideNav = (props) => {
           <a href="#projects">Projects</a>
           <a href="#involvements">Involvement</a>
           <a href="#blog">Blog</a>
+          <a href="#mtl-sightseeing">MTL Sightseeing</a>
           <a href="#contact">Contact</a>
         </div>
       )}
