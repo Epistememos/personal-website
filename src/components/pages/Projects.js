@@ -2,12 +2,15 @@ import React from 'react';
 import Header from '../Header';
 import ShowcaseItem from '../ShowcaseItem';
 import backendData from '../../backendData';
+import Button from '../Button';
+
 
 function Projects() {
   const  data = backendData[0];
   return (
     <div>
-    <Header />
+    <Button name='Return Home' path='/'/>
+    <Header/>
     <div className='showcase__container' id={data.id}>
       <h1>{data.section}</h1>
       <div className='showcase__wrapper'>

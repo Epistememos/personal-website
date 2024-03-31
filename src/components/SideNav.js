@@ -24,13 +24,13 @@ const SideNav = (props) => {
         <div className="sidenav-open">
           <img src="/assets/img-logo.jpg" alt="Logo" width="100px" />
           <h1>{props.name}</h1>
-          <Button name="Resume" path="/assets/Resume.pdf" />
-          <a href="/simplified">Simplified</a>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#involvements">Involvement</a>
-          <a href="#blog">Blog</a>
-          <a href="#mtl-sightseeing">MTL Sightseeing</a>
+          <Button name="Resume" path="/assets/Resume.pdf" newWindow={true} />
+          <a href="/#/simplified">Simplified</a>
+          <a href="/#/about">About</a>
+          <a href="/#/projects">Projects</a>
+          <a href="/#/involvements">Involvement</a>
+          <a href="/#/blog">Blog</a>
+          <a href="/#/mtl-sightseeing">MTL Sightseeing</a>
           <a href="#contact">Contact</a>
         </div>
       )}

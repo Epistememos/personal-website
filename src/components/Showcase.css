@@ -54,10 +54,10 @@ h1 {
 
 
 .showcase__item__img {
-  display: block;
+  display: grid;
   position: relative;
-  width: 15em;
-  height: 15em;
+  width: 14em;
+  height: 14em;
   margin-left: auto;
   margin-right: auto;
 }

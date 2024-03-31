@@ -2,7 +2,7 @@ const backendData = [
     {
       section: 'Projects',
       id: 'projects',
-      link: '/projects',
+      link: '/#/projects',
       categories: [
         {
           title: 'NeuralCar',
@@ -22,7 +22,7 @@ const backendData = [
     {
       section: 'Involvements',
       id: 'involvements',
-      link: '/involvements',
+      link: '/#/involvements',
       categories: [
         {
           title: 'Director of Outreach - MPMA',
@@ -47,13 +47,13 @@ const backendData = [
           time: '10/2023-Present',
           src: '/assets/img-boxing.jpg',
           path: 'https://mcgillstudentboxingclub.ca/'
-        }
+        },
       ]
     },
     {
       section: 'Blog',
       id: 'blog',
-      link: '/blog',
+      link: '/#/blog',
       categories: [
         {
           title: 'Free Will (Coming Soon)',
