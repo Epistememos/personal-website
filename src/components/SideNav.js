@@ -32,7 +32,7 @@ const SideNav = (props) => {
           <HashLink to="/#involvements">Involvements</HashLink>
           <HashLink to="/#blog">Blog</HashLink>
           <HashLink to="/#mtl-sightseeing">MTL Sightseeing</HashLink>
-          <HashLink to="/#contact">Contact</HashLink>
+          <HashLink to="/#footer">Contact</HashLink>
         </div>
       )}
     </div>
