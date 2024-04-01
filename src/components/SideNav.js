@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './SideNav.css';
 import Button from './Button';
 import { Spin as Hamburger } from 'hamburger-react';
+import { HashLink } from 'react-router-hash-link';
 
 const SideNav = (props) => {
   const [isOpen, setOpen] = useState(true);
@@ -26,12 +27,12 @@ const SideNav = (props) => {
           <h1>{props.name}</h1>
           <Button name="Resume" path="/assets/Resume.pdf" newWindow={true} />
           <a href="/#/simplified">Simplified</a>
-          <a href="/#/about">About</a>
-          <a href="/#/projects">Projects</a>
-          <a href="/#/involvements">Involvement</a>
-          <a href="/#/blog">Blog</a>
-          <a href="/#/mtl-sightseeing">MTL Sightseeing</a>
-          <a href="#contact">Contact</a>
+          <HashLink to="/#about">About</HashLink>
+          <HashLink to="/#projects">Projects</HashLink>
+          <HashLink to="/#involvements">Involvements</HashLink>
+          <HashLink to="/#blog">Blog</HashLink>
+          <HashLink to="/#mtl-sightseeing">MTL Sightseeing</HashLink>
+          <HashLink to="/#contact">Contact</HashLink>
         </div>
       )}
     </div>

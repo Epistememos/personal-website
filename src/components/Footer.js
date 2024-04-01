@@ -6,8 +6,8 @@ function Footer() {
     <>
     <div className="footer">
       <h1>Contact</h1>
-      <p>Phone:+1(438) 600-4808</p>
       <p>Email:youdas.yessad@gmail.com</p>
+      <p>All rights reserved 2024</p>
     </div>
     </>
   )
