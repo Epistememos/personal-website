@@ -11,6 +11,7 @@ const ShowcaseItem = ({data}) => {
           <img className='showcase__item__img' alt='Project' src={data.src}/>
           <div className='showcase__item__info'>
             <h5 className='showcase__item__text'>{data.title}</h5>
+            <h3 className='showcase__item__text'>{data.time}</h3>
           </div>
         </Link>
       </li>

@@ -14,8 +14,8 @@ const backendData = [
           path: 'https://github.com/Epistememos/TaskMaster'
         },
         {
-          title: 'Projecto (March 2024)', 
-          src: '/assets/img-projecto.jpg'
+          title: 'Personal Website', 
+          src: '/assets/img-pilot.jpg'
         }
       ]
     },
@@ -26,6 +26,7 @@ const backendData = [
       categories: [
         {
           title: 'Director of Outreach - MPMA',
+          time: '10/2023-Present',
           src: '/assets/img-mpma.jpg',
           path: 'https://www.linkedin.com/company/mpma-mcgill/'
         },
@@ -44,9 +45,33 @@ const backendData = [
         },
         {
           title: 'Member - Boxing Club', 
-          time: '10/2023-Present',
+          time: '02/2024-Present',
           src: '/assets/img-boxing.jpg',
           path: 'https://mcgillstudentboxingclub.ca/'
+        },
+        {
+          title: ' Volunteer - Notre-Dame Hospital', 
+          time: '11/2020-Present',
+          src: '/assets/img-volunteer.jpg',
+          path: 'https://ciusss-centresudmtl.gouv.qc.ca/actualite/benevolat-offrir-et-recevoir-en-meme-temps'
+        },
+        {
+          title: 'President - CIUSSS Volunteers', 
+          time: '08/2022-06/2023',
+          src: '/assets/img-boxing.jpg',
+          path: 'https://www.instagram.com/ciusss.mari/?hl=en'
+        },
+        {
+          title: 'Many Roles - Royal Air Cadets', 
+          time: '2016-2023',
+          src: '/assets/img-cadet.jpg',
+          path: ''
+        },
+        {
+          title: 'President - Philosophy Club', 
+          time: '08/2021-06/2023',
+          src: '/assets/img-philo.jpg',
+          path: ''
         },
       ]
     },
@@ -56,18 +81,17 @@ const backendData = [
       link: '/#/blog',
       categories: [
         {
-          title: 'Free Will (Coming Soon)',
+          title: 'Free Will',
           src: '/assets/img-freewill.jpg',
-          path: 'article/free-will',
-          article: '/public/articles/free-will.txt' 
+          path: 'articles/free-will', 
         },
         {
           title: 'Misunderstood Nietzsche (Soon)',
-          src: ''
+          src: '/assets/img-nietzsche.jpg'
         },
         {
           title: 'Option Trading Simplified (Soon)', 
-          src: ''
+          src: '/assets/img-options.jpg'
         }
       ]
     }

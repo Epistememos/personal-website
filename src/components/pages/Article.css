@@ -1,0 +1,7 @@
+.article {
+    padding: 3em;
+    color: var(--white);
+}
+.article >p {
+    font-size: small;
+}

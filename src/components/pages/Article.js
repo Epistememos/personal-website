@@ -1,23 +1,32 @@
 import React, { useState, useEffect } from 'react';
 import backendData from '../../backendData';
 import { useParams } from 'react-router-dom';
+import './Article.css'
 
 function Article() {
-    const { id } = useParams();
-    const [article, setArticle] = useState('');
-    useEffect(() => {
-        fetch('/public/articles/${id}')
-          .then(response => response.text())
-          .then(data => {
-            setArticle(data);
-          })
-      }, [id]);
+  const { id } = useParams();
+  const [article, setArticle] = useState('');
+
+  useEffect(() => {
+      const fetchArticle = async () => {
+        const response = await fetch(`/articles/${id}.txt`);
+        const data = await response.text();
+        setArticle(data);
+      };
+
+      fetchArticle();
+  }, [id]);
+
+  const createMarkup = () => {
+      return { __html: article };
+  };
+
   return (
-    <div>
-      <h2>{ id }</h2>
-      <div dangerouslySetInnerHTML={{ __html: article }} />
-    </div>
-  )
+      <div className='article'>
+          {id}
+          <div dangerouslySetInnerHTML={createMarkup()} />
+      </div>
+  );
 }
 
 export default Article
