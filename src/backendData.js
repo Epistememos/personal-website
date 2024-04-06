@@ -84,14 +84,18 @@ const backendData = [
           title: 'Free Will',
           src: '/assets/img-freewill.jpg',
           path: 'articles/free-will', 
+          time: '04/2024',
         },
         {
           title: 'Misunderstood Nietzsche (Soon)',
-          src: '/assets/img-nietzsche.jpg'
+          src: '/assets/img-nietzsche.jpg',
+          time: '04/2024',
+          
         },
         {
-          title: 'Option Trading Simplified (Soon)', 
-          src: '/assets/img-options.jpg'
+          title: 'Option Trading (Soon)', 
+          src: '/assets/img-options.jpg',
+          time: '04/2024'
         }
       ]
     }

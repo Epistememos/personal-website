@@ -17,6 +17,7 @@ h1 {
   width: 96%;
   margin: 1em;
   height: auto;
+  padding-left: auto;
   padding-bottom: 1em;
   background-color: var(--black);
   border-radius: 2em;
@@ -28,6 +29,7 @@ h1 {
   margin-bottom: 24px;
   display:flex;
   flex-wrap:wrap;
+  width: 100%;
 }
 
 .showcase__item {

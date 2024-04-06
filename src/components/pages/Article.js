@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import backendData from '../../backendData';
 import { useParams } from 'react-router-dom';
 import './Article.css'
+import Button from '../Button';
 
 function Article() {
   const { id } = useParams();
@@ -23,7 +24,7 @@ function Article() {
 
   return (
       <div className='article'>
-          {id}
+        <Button name='Return Home' path='/'/>
           <div dangerouslySetInnerHTML={createMarkup()} />
       </div>
   );

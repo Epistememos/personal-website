@@ -8,12 +8,11 @@ import { Link } from 'react-router-dom';
 function Blog() {
   const  data = backendData[2];
   return (
-    <div className="home-main">
+    <div>
     <Button name='Return Home' path='/'/>
     <Header />
     <div className='showcase__container' id={data.id}>
       <h1>{data.section}</h1>
-      <div className='showcase__wrapper'>
         <ul className='showcase__items'>
         {data.categories.map(item => (
           <Link to={`/blog/${item.title.toLowerCase().replace(/ /g, '-')}`}>
@@ -22,7 +21,6 @@ function Blog() {
         ))}
         </ul>
       </div>
-    </div>
     </div>
   )
 }
