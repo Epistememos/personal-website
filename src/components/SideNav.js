@@ -4,6 +4,7 @@ import './SideNav.css';
 import Button from './Button';
 import { Spin as Hamburger } from 'hamburger-react';
 import { HashLink } from 'react-router-hash-link';
+import Theme from './Theme';
 
 const SideNav = (props) => {
   const [isOpen, setOpen] = useState(true);
@@ -19,7 +20,7 @@ const SideNav = (props) => {
   return (
     <div className="sidenav-container">
       <div className="menu-icon">
-        <Hamburger rounded toggled={isOpen} toggle={() => toggleNav(!isOpen)} color="#F4F2EC" />
+        <Hamburger rounded toggled={isOpen} toggle={() => toggleNav(!isOpen)} color="var(--txt-color)" />
       </div>
       {isOpen && (
         <div className="sidenav-open">
@@ -33,6 +34,7 @@ const SideNav = (props) => {
           <HashLink to="/#blog">Blog</HashLink>
           <HashLink to="/#mtl-sightseeing">MTL Sightseeing</HashLink>
           <HashLink to="/#footer">Contact</HashLink>
+          <Theme />
         </div>
       )}
     </div>

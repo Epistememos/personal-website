@@ -1,0 +1,77 @@
+:root {
+    --wide: 96%;
+    --narrow: 85%;
+    --white: rgb(244, 242, 236);
+    --black: rgb(22,22,24);
+    --light-gray: rgb(56, 56, 56);
+    --blue:  #ADD8E6;
+    --light-blue:  #f5ffff;
+    --gray: rgb(33,33,36);
+    --primary-color: var(--gray);
+    --secondary-color: var(--black);
+    --tertiary-color: var(--light-gray);
+    --txt-color: var(--white);
+  }
+[data-theme="light"] {
+    --wide: 96%;
+    --narrow: 85%;
+    --white: rgb(244, 242, 236);
+    --black: rgb(22,22,24);
+    --gray: rgb(33,33,36);
+    --light-gray: rgb(56, 56, 56);
+    --blue: #ADD8E6;
+    --light-blue:  #f5ffff;
+    --primary-color: var(--blue);
+    --secondary-color: var(--white);
+    --tertiary-color: var(--light-blue);
+    --txt-color: var(--gray);
+}
+
+.theme-toggle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.theme-toggle > label {
+    width: 5em;
+    height: 2em;
+    position: relative;
+    display: block;
+    background: var(--gray);
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.theme-toggle > label:after {
+    content: "";
+    width: 1.8em;
+    height: 1.8em;
+    border-radius: 1.8em;
+    position: absolute;
+    top: .1em;
+    left: .1em;
+    background: var(--white);
+}
+
+.theme-toggle > input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.theme-toggle > input:checked + label {
+    background-color: var(--gray);
+}
+
+.theme-toggle > input:checked + label:after {
+    left: 4.9em;
+    transform: translateX(-100%);
+    transition-duration: 0.3s;
+    background: var(--white);
+}
+
+.theme-toggle > label:active:after{
+    width: 2.3em;
+}

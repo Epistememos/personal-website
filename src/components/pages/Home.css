@@ -1,13 +1,7 @@
-:root {
-    --wide: 96%;
-    --narrow: 85%;
-    --white: rgb(244, 242, 236);
-    --black: rgb(22,22,24);
-    --gray: rgb(33,33,36);
-  }
+
 
 html {
-    background-color: rgb(33,33,36);
+    background-color: var(--primary_color);
 }
 
 

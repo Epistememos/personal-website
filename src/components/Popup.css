@@ -1,6 +1,6 @@
 .popup {
     position: fixed;
-    background-color: var(--white);
+    background-color: var(--txt-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,7 +11,7 @@
     z-index: 2;
 }
 .popup-inner >p {
-    color: var(--gray);
+    color: var(--primary-color);
 }
 
 
@@ -19,13 +19,13 @@
     position: relative;
     padding: 10px;
     width: 80%;
-    color: var(--gray);
+    color: var(--primary-color);
 }
 
 .popup-inner > button {
-    background-color: var(--gray);
+    background-color: var(--primary-color);
     outline-width: 0cap;
-    color: var(--white);
+    color: var(--txt-color);
     padding: 4px;
     border-radius: 10%;
 }

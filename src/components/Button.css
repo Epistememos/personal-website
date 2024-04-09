@@ -7,7 +7,7 @@
   margin: 5px;
   font-weight: 600;
   line-height: 15px;
-  color: rgb(26, 26, 26);
+  color: var(--tertiary-color);
   position: relative;
   text-align: center;
   background: none;
@@ -36,8 +36,8 @@
   will-change: transform, filter;
 }
 .btn-shadow:hover {
-  color: rgb(26, 26, 26);
-  text-shadow: 0 0 50px white;
+  color: var(--tertiary-color);
+  text-shadow: 0 0 50px var(--txt-color);
 }
 .btn-shadow:hover span {
   filter: brightness(0.9) contrast(1.2);
@@ -50,5 +50,5 @@
   right: 15px;
 }
 .btn-shadow--black span {
-  background: rgb(244, 242, 236);
+  background: var(--txt-color);
 }

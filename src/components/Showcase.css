@@ -5,9 +5,7 @@
 
 h1 {
   text-align: left;
-  color: var(--white);
-  text-shadow:
-  0 0 7px var(--white);
+  color: var(--txt-color);
 }
 
 .showcase__container {
@@ -19,7 +17,7 @@ h1 {
   height: auto;
   padding-left: auto;
   padding-bottom: 1em;
-  background-color: var(--black);
+  background-color: var(--secondary-color);
   border-radius: 2em;
 }
 
@@ -36,7 +34,7 @@ h1 {
   display: flex;
   flex: 1;
   border-radius: 10px;
-  background-color: var(--white);
+  background-color: var(--tertiary-color);
 }
 
 .showcase__item__link {
@@ -70,7 +68,7 @@ h1 {
 }
 
 .showcase__item__text {
-  color: #252e48;
+  color: var(--txt-color);
   font-size: 1em;
   line-height: 22px;
   margin-top: 1em;

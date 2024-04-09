@@ -1,7 +1,7 @@
 .sidenav-container {
     margin-top: 0;
     z-index: 1;
-    background-color: rgb(22,22,24);
+    background-color: var(--secondary-color);
     padding-top: 30px;
     display: flex;
     flex-direction: column;
@@ -12,17 +12,17 @@
 
 
 .sidenav-container > a {
-    color: var(--white);
+    color: var(--txt-color);
     font-size: 1em;
 }
 .sidenav-container > a:hover {
     text-shadow:
-      0 0 7px var(--white),
-      0 0 10px var(--white);
+      0 0 7px var(--txt-color),
+      0 0 10px var(--txt-color);
 }
 
 .sidenav-container > h1 {
-    color: var(--white);
+    color: var(--txt-color);
     font-size: 1em;
 }
 
@@ -36,8 +36,7 @@ img {
     margin-top: 10px;
     position: relative;
     z-index: 1;
-    background-color: rgb(22,22,24);
-    transition: 0.3s ease;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,17 +44,17 @@ img {
   }
   
   .sidenav-open > a {
-      color:var(--white);
+      color:var(--txt-color);
       font-size: 1em;
   }
   .sidenav-open > a:hover {
       text-shadow:
-        0 0 7px var(--white),
-        0 0 10px var(--white);
+        0 0 7px var(--txt-color),
+        0 0 10px var(--txt-color);
   }
   
   .sidenav-open > h1 {
-      color: var(--white);
+      color: var(--txt-color);
       font-size: 2cap;
   }
 
