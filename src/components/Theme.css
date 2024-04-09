@@ -22,6 +22,7 @@
     --blue: #ADD8E6;
     --light-blue:  #f5ffff;
     --primary-color: var(--blue);
+
     --secondary-color: var(--white);
     --tertiary-color: var(--light-blue);
     --txt-color: var(--gray);
